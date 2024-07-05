@@ -1,11 +1,8 @@
 <p align="center">
-  <img width="280px" src="./asset/architettura.png">
+  <img width="280px" src="assets/hacker.png">
 </p>
 <p align="center" dir="auto">
-  <img align="middle" width="32px" src="./assets/face-scan.png"/> 
-  PTES IoT Architecture Cloud-based
- <img align="middle" width="32px" src="./assets/face-scan.png"/> <br><br>
-  A penetration testing project for IoT Architecture Cloud-based systems.
+  A penetration testing project for an <br>IoT Architecture Cloud-based.
 </p>
 
 <h1 dir="auto">
