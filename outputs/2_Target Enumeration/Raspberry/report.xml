@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.94SVN scan initiated Tue Jun 18 15:04:41 2024 as: nmap -sV -T4 -p- -oX report.xml 192.168.14.240 -->
+<nmaprun scanner="nmap" args="nmap -sV -T4 -p- -oX report.xml 192.168.14.240" start="1718715881" startstr="Tue Jun 18 15:04:41 2024" version="7.94SVN" xmloutputversion="1.05">
+<scaninfo type="syn" protocol="tcp" numservices="65535" services="1-65535"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<hosthint><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.14.240" addrtype="ipv4"/>
+<address addr="B8:27:EB:D2:11:53" addrtype="mac" vendor="Raspberry Pi Foundation"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<taskprogress task="SYN Stealth Scan" time="1718716101" percent="9.42" remaining="2106" etc="1718718206"/>
+<taskprogress task="SYN Stealth Scan" time="1718716438" percent="21.31" remaining="2054" etc="1718718491"/>
+<taskprogress task="SYN Stealth Scan" time="1718716447" percent="21.65" remaining="2045" etc="1718718492"/>
+<taskprogress task="SYN Stealth Scan" time="1718716695" percent="30.87" remaining="1821" etc="1718718516"/>
+<taskprogress task="SYN Stealth Scan" time="1718718263" percent="90.57" remaining="248" etc="1718718511"/>
+<taskprogress task="SYN Stealth Scan" time="1718718500" percent="99.48" remaining="14" etc="1718718514"/>
+<host starttime="1718715882" endtime="1718718576"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.14.240" addrtype="ipv4"/>
+<address addr="B8:27:EB:D2:11:53" addrtype="mac" vendor="Raspberry Pi Foundation"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="closed" count="65532">
+<extrareasons reason="reset" count="65532" proto="tcp" ports="1-21,23-52,54-1882,1884-65535"/>
+</extraports>
+<port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="ssh" product="OpenSSH" version="8.4p1 Debian 5+deb11u3" extrainfo="protocol 2.0" ostype="Linux" method="probed" conf="10"><cpe>cpe:/a:openbsd:openssh:8.4p1</cpe><cpe>cpe:/o:linux:linux_kernel</cpe></service></port>
+<port protocol="tcp" portid="53"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="domain" product="dnsmasq" version="2.85" method="probed" conf="10"><cpe>cpe:/a:thekelleys:dnsmasq:2.85</cpe></service></port>
+<port protocol="tcp" portid="1883"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="mosquitto version 2.0.11" method="probed" conf="10"/></port>
+</ports>
+<times srtt="459561" rttvar="357957" to="1250000"/>
+</host>
+<runstats><finished time="1718718576" timestr="Tue Jun 18 15:49:36 2024" summary="Nmap done at Tue Jun 18 15:49:36 2024; 1 IP address (1 host up) scanned in 2694.49 seconds" elapsed="2694.49" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

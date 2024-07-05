@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.94SVN scan initiated Tue Jun 18 15:56:49 2024 as: nmap -A -p- -oX report-aggressive.xml 192.168.14.240 -->
+<nmaprun scanner="nmap" args="nmap -A -p- -oX report-aggressive.xml 192.168.14.240" start="1718719009" startstr="Tue Jun 18 15:56:49 2024" version="7.94SVN" xmloutputversion="1.05">
+<scaninfo type="syn" protocol="tcp" numservices="65535" services="1-65535"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<hosthint><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.14.240" addrtype="ipv4"/>
+<address addr="B8:27:EB:D2:11:53" addrtype="mac" vendor="Raspberry Pi Foundation"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<taskprogress task="SYN Stealth Scan" time="1718719157" percent="5.98" remaining="2326" etc="1718721482"/>
+<taskprogress task="SYN Stealth Scan" time="1718719324" percent="12.48" remaining="2210" etc="1718721533"/>
+<taskprogress task="SYN Stealth Scan" time="1718719893" percent="34.03" remaining="1714" etc="1718721607"/>
+<taskprogress task="SYN Stealth Scan" time="1718720075" percent="41.21" remaining="1521" etc="1718721596"/>
+<taskprogress task="SYN Stealth Scan" time="1718720313" percent="51.31" remaining="1238" etc="1718721550"/>
+<taskprogress task="SYN Stealth Scan" time="1718720416" percent="54.23" remaining="1188" etc="1718721603"/>
+<taskprogress task="SYN Stealth Scan" time="1718720439" percent="55.17" remaining="1163" etc="1718721601"/>
+<taskprogress task="SYN Stealth Scan" time="1718720670" percent="63.94" remaining="937" etc="1718721607"/>
+<taskprogress task="SYN Stealth Scan" time="1718720721" percent="65.84" remaining="889" etc="1718721609"/>
+<taskprogress task="SYN Stealth Scan" time="1718721386" percent="90.61" remaining="247" etc="1718721632"/>
+<taskprogress task="SYN Stealth Scan" time="1718721503" percent="95.07" remaining="130" etc="1718721632"/>
+<taskprogress task="SYN Stealth Scan" time="1718721672" percent="99.99" remaining="1" etc="1718721672"/>
+<host starttime="1718719009" endtime="1718721711"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.14.240" addrtype="ipv4"/>
+<address addr="B8:27:EB:D2:11:53" addrtype="mac" vendor="Raspberry Pi Foundation"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="closed" count="65532">
+<extrareasons reason="reset" count="65532" proto="tcp" ports="1-21,23-52,54-1882,1884-65535"/>
+</extraports>
+<port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="ssh" product="OpenSSH" version="8.4p1 Debian 5+deb11u3" extrainfo="protocol 2.0" ostype="Linux" method="probed" conf="10"><cpe>cpe:/a:openbsd:openssh:8.4p1</cpe><cpe>cpe:/o:linux:linux_kernel</cpe></service><script id="ssh-hostkey" output="&#xa;  3072 c9:03:42:45:8e:f6:78:09:53:a0:a4:4c:31:0d:b3:a2 (RSA)&#xa;  256 22:e9:64:59:91:5a:d1:e3:82:68:57:80:e8:b2:5c:2f (ECDSA)&#xa;  256 d0:5d:3e:1c:33:ca:67:99:54:19:88:6f:3c:96:70:82 (ED25519)"><table>
+<elem key="fingerprint">c90342458ef6780953a0a44c310db3a2</elem>
+<elem key="bits">3072</elem>
+<elem key="key">AAAAB3NzaC1yc2EAAAADAQABAAABgQDpr56f+aOeR12xACjg7XmxxwlNvWxTBdQU+1x5gIJErzqXSOcV+61bUoKBFkaAnf3Onp7UoQPScKOVTMngK0F1GAtFe9mX2QXiA05Fnmbrd1ZEGqnzUaduvdwdoRNOlf9MTTH7xygahOgPz2ufLsFIHmWD8fYAirXTRkAWugZEvocGPGTwmwcytweqywnDp3FEQm+fvbgJm0Cqjiq/f5rWctTdX4hd0x44UG848L/etGq6d/9p/zrNKVZcguL06yStATgvBZKQaOsndTtkqP0aWHy4Y2nUur4KsuLuxV2OPGRboHUsJrIH4pFxQK/TfST0/MQ3S/oX3a9XYq2kLaEaYZ6Y93CE1GNzuoBKaFcEOjKtpBoShktQH03AmdWnWXgDmXjxA0yfPJLU6IPnUA7ZO6dgqQLNg8hwAJRgKDbPMN0Ea5Hd2sFTBbTWGibt5iSruVJ8Hh/K9zX4BukTBGayehmWR4sm09GYQOeVQ2drsshsMuWabsU9UQAfBt4Y+sE=</elem>
+<elem key="type">ssh-rsa</elem>
+</table>
+<table>
+<elem key="fingerprint">22e96459915ad1e382685780e8b25c2f</elem>
+<elem key="bits">256</elem>
+<elem key="key">AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBFrXusq7JhyhkdjXjcBIswCXoCmS35umDb2hckGCTUdpo0c+6omsUIVIcJU1uH4D3JFGuzHlQzUT+t5ndN6PCdE=</elem>
+<elem key="type">ecdsa-sha2-nistp256</elem>
+</table>
+<table>
+<elem key="fingerprint">d05d3e1c33ca67995419886f3c967082</elem>
+<elem key="bits">256</elem>
+<elem key="key">AAAAC3NzaC1lZDI1NTE5AAAAIOQlAM04CoBEO/BhW0hldRtJ+Z7q89wsVfmZyKlytztR</elem>
+<elem key="type">ssh-ed25519</elem>
+</table>
+</script></port>
+<port protocol="tcp" portid="53"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="domain" product="dnsmasq" version="2.85" method="probed" conf="10"><cpe>cpe:/a:thekelleys:dnsmasq:2.85</cpe></service><script id="dns-nsid" output="&#xa;  bind.version: dnsmasq-2.85"><elem key="bind.version">dnsmasq-2.85</elem>
+</script></port>
+<port protocol="tcp" portid="1883"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="mosquitto version 2.0.11" method="probed" conf="10"/><script id="mqtt-subscribe" output="&#xa;  Topics and their most recent payloads: &#xa;    $SYS/broker/load/bytes/sent/1min: 27.74&#xa;    $SYS/broker/version: mosquitto version 2.0.11&#xa;    $SYS/broker/load/messages/received/5min: 13.05&#xa;    $SYS/broker/load/connections/15min: 0.08&#xa;    $SYS/broker/load/messages/sent/1min: 13.11&#xa;    $SYS/broker/bytes/received: 8363&#xa;    $SYS/broker/messages/sent: 3925&#xa;    $SYS/broker/load/bytes/sent/15min: 30.25&#xa;    $SYS/broker/uptime: 17820 seconds&#xa;    $SYS/broker/messages/received: 3859&#xa;    $SYS/broker/load/connections/1min: 0.76&#xa;    $SYS/broker/load/sockets/5min: 0.20&#xa;    $SYS/broker/load/messages/received/15min: 13.03&#xa;    $SYS/broker/load/sockets/1min: 0.76&#xa;    $SYS/broker/load/bytes/sent/5min: 26.52&#xa;    $SYS/broker/load/bytes/received/5min: 29.17&#xa;    $SYS/broker/load/sockets/15min: 0.08&#xa;    $SYS/broker/load/messages/sent/5min: 13.05&#xa;    $SYS/broker/load/messages/sent/15min: 13.11&#xa;    $SYS/broker/bytes/sent: 10750&#xa;    $SYS/broker/load/bytes/received/15min: 28.83&#xa;    $SYS/broker/load/connections/5min: 0.20&#xa;    $SYS/broker/load/messages/received/1min: 13.11&#xa;    $SYS/broker/load/bytes/received/1min: 38.39"><table key="Topics and their most recent payloads">
+<elem key="$SYS/broker/load/bytes/sent/1min">27.74</elem>
+<elem key="$SYS/broker/version">mosquitto version 2.0.11</elem>
+<elem key="$SYS/broker/load/messages/received/5min">13.05</elem>
+<elem key="$SYS/broker/load/connections/15min">0.08</elem>
+<elem key="$SYS/broker/load/messages/sent/1min">13.11</elem>
+<elem key="$SYS/broker/bytes/received">8363</elem>
+<elem key="$SYS/broker/messages/sent">3925</elem>
+<elem key="$SYS/broker/load/bytes/sent/15min">30.25</elem>
+<elem key="$SYS/broker/uptime">17820 seconds</elem>
+<elem key="$SYS/broker/messages/received">3859</elem>
+<elem key="$SYS/broker/load/connections/1min">0.76</elem>
+<elem key="$SYS/broker/load/sockets/5min">0.20</elem>
+<elem key="$SYS/broker/load/messages/received/15min">13.03</elem>
+<elem key="$SYS/broker/load/sockets/1min">0.76</elem>
+<elem key="$SYS/broker/load/bytes/sent/5min">26.52</elem>
+<elem key="$SYS/broker/load/bytes/received/5min">29.17</elem>
+<elem key="$SYS/broker/load/sockets/15min">0.08</elem>
+<elem key="$SYS/broker/load/messages/sent/5min">13.05</elem>
+<elem key="$SYS/broker/load/messages/sent/15min">13.11</elem>
+<elem key="$SYS/broker/bytes/sent">10750</elem>
+<elem key="$SYS/broker/load/bytes/received/15min">28.83</elem>
+<elem key="$SYS/broker/load/connections/5min">0.20</elem>
+<elem key="$SYS/broker/load/messages/received/1min">13.11</elem>
+<elem key="$SYS/broker/load/bytes/received/1min">38.39</elem>
+</table>
+</script></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="22"/>
+<portused state="closed" proto="tcp" portid="1"/>
+<portused state="closed" proto="udp" portid="32865"/>
+<osmatch name="Linux 4.15 - 5.8" accuracy="100" line="67250">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="4.X" accuracy="100"><cpe>cpe:/o:linux:linux_kernel:4</cpe></osclass>
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="5.X" accuracy="100"><cpe>cpe:/o:linux:linux_kernel:5</cpe></osclass>
+</osmatch>
+</os>
+<uptime seconds="2716870" lastboot="Sat May 18 06:00:41 2024"/>
+<distance value="1"/>
+<tcpsequence index="258" difficulty="Good luck!" values="B26C8F24,F2580B97,19852690,698688E9,B98AA898,31835CBA"/>
+<ipidsequence class="All zeros" values="0,0,0,0,0,0"/>
+<tcptssequence class="1000HZ" values="A1EFFD10,A1EFFD6F,A1EFFDD4,A1EFFE38,A1EFFE9C,A1EFFF00"/>
+<trace>
+<hop ttl="1" ipaddr="192.168.14.240" rtt="34.92"/>
+</trace>
+<times srtt="34923" rttvar="34807" to="174151"/>
+</host>
+<runstats><finished time="1718721711" timestr="Tue Jun 18 16:41:51 2024" summary="Nmap done at Tue Jun 18 16:41:51 2024; 1 IP address (1 host up) scanned in 2702.05 seconds" elapsed="2702.05" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>
