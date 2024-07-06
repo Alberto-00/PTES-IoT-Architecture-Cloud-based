@@ -14,7 +14,7 @@
   Penetration Testing of a Cloud-based IoT Architecture
 </h1>
 <p dir="auto">
-The project activity in question consists of carrying out the process of Penetration Testing on an asset regarding a Cloud-based IoT architecture; specifically, the following Penetration Testing activity is part of the second step of a dissertation, within which a Cloud-based IoT architecture inspired by a real-life scenario was fully implemented.
+The project activity in question consists of carrying out the process of Penetration Testing on an asset regarding a Cloud-based IoT architecture; specifically, the following Penetration Testing activity is part of the second step of my master's thesis, within which a Cloud-based IoT architecture inspired by a real-life scenario was fully implemented.
 </p>
 
 <h2 dir="auto">
